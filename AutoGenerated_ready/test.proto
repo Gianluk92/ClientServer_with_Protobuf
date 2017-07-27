@@ -1,0 +1,15 @@
+message myproto {
+optional sint32 a = 1 ;
+optional sint32 b = 2 ;
+optional sint32 c = 3 ;
+};
+message m_sum {
+optional myproto response = 1 ;
+optional myproto num1 = 2 ;
+optional myproto num2 = 3 ;
+};
+message m_prod {
+optional sint32 response = 1 ;
+optional sint32 num1 = 2 ;
+optional sint32 num2 = 3 ;
+};

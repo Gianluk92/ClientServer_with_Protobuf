@@ -1,0 +1,12 @@
+message myproto {
+optional sint32 a = 1 ;
+optional sint32 b = 2 ;
+optional sint32 c = 3 ;
+};
+
+interface test
+{
+myproto sum( myproto num1, myproto num2);
+int prod( int num1, int num2);
+};
+
