@@ -55,3 +55,5 @@ file is not furnished.
 For recompile the parser execute:
 
 g++ parser.cc -std=c++11 -o parser
+
+PROJECT CREATED BY GIULIA FERRI AND GIANLUCA GIUFFRIDA
